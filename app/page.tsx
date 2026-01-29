@@ -177,9 +177,9 @@ export default function Home() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           {[
             { name: 'React', color: 'from-cyan-500 to-blue-500', icon : '/images/react.png' },
-            { name: 'Next.js', color: 'from-gray-700 to-gray-900' , icon : '/images/next-js.png' },
-            { name: 'Vue.js', color: 'from-gray-700 to-gray-900', icon : '/images/vue_js.png' },
-            { name: 'Node.js', color: 'from-green-600 to-green-700' , icon : '/images/node-js.png' },
+            { name: 'Next.js', color: 'from-gray-700 to-gray-900' , icon : '/images/nextjs.png' },
+            { name: 'Vue.js', color: 'from-gray-700 to-gray-900', icon : '/images/vuejs.png' },
+            { name: 'Node.js', color: 'from-green-600 to-green-700' , icon : '/images/nodejs.png' },
             { name: 'TypeScript', color: 'from-blue-600 to-blue-700' , icon : '/images/typescript.png' },
             { name: 'JavaScript', color: 'from-yellow-500 to-yellow-600' , icon : '/images/javascript.png' },
             { name: 'HTML5', color: 'from-orange-500 to-orange-600' , icon : '/images/html.png' },
@@ -190,12 +190,12 @@ export default function Home() {
             { name: 'WordPress', color: 'from-blue-700 to-blue-800' , icon : '/images/wordpress.png' },
             { name: 'Shopify', color: 'from-green-500 to-green-600' , icon : '/images/shopify.png' },
             { name: 'Angular', color: 'from-red-600 to-red-700' , icon : '/images/angular.png' },
-            { name: 'ASP.NET', color: 'from-purple-700 to-purple-800' , icon : '/images/asp_net.png' },
+            { name: 'ASP.NET', color: 'from-purple-700 to-purple-800' , icon : '/images/aspnet.png' },
             { name: 'ColdFusion', color: 'from-indigo-600 to-indigo-700' , icon : '/images/coldfusion.png' },
             { name: 'ZOHO ', color: 'from-indigo-600 to-indigo-700', icon : '/images/zoho.png' },
-            { name: 'AI Development', color: 'from-indigo-600 to-indigo-700', icon : '/images/ai_development.png' },
-            { name: 'AI Chatbot', color: 'from-indigo-600 to-indigo-700', icon : '/images/ai_chatbot.png' },
-            { name: 'Open AI', color: 'from-indigo-600 to-indigo-700', icon : '/images/open_ai.png' },
+            { name: 'AI Development', color: 'from-indigo-600 to-indigo-700', icon : '/images/aidevelopment.png' },
+            { name: 'AI Chatbot', color: 'from-indigo-600 to-indigo-700', icon : '/images/aichatbot.png' },
+            { name: 'Open AI', color: 'from-indigo-600 to-indigo-700', icon : '/images/openai.png' },
 
           ].map((skill, index) => (
             <div
