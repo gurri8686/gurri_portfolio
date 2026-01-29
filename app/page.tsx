@@ -239,14 +239,10 @@ export default function Home() {
               <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed">
-              I'm a Senior Full-Stack Developer & AI Automation Specialist with
-              over 10+ years of hands-on experience building high-performance
-              web applications, SaaS platforms, and AI-driven systems. I work
-              with startups, agencies, and enterprises who need a developer that
-              understands both business goals and technical excellence. With a
-              proven track record of 100% job success rate and $200K+ in
-              completed projects, I deliver solutions that drive real business
-              value.
+              I am a Senior Full-Stack Developer and AI Automation Specialist with 10+ years of experience building scalable web applications, SaaS platforms, and business automation solutions. I work with startups, agencies, and growing businesses to design and develop high-performance, secure, and maintainable systems.
+              I also build AI-powered automations, internal tools, dashboards and workflow systems that reduce manual work and improve operational efficiency.
+              I also build AI-powered automations, internal tools, dashboards and workflow systems that reduce manual work and improve operational efficiency.
+              I take full ownership of projects from requirements analysis and system architecture to development, optimization, and deployment. Clients hire me for clear communication, on-time delivery and solutions that are scalable, SEO-friendly and performance-optimized.
             </p>
           </div>
         </div>
