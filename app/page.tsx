@@ -9,23 +9,20 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Michael R.",
+      name: "Aaron Stuart.",
       role: "CEO, Tech Startup",
       rating: 5.0,
-      text: "I've worked with Gurpreet on many other projects. He has always gone above and beyond. Easy communication and very fast software developing skills. Look no further this is your guy.",
-      badges: ["Clear Communicator", "Accountable"],
-      badgeColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800"],
+      text: "Working with Gurpreet was one of the best experiences I've had on UpWork. Not only did he do full stack back and front end design and development, he was very intuitive and creative in the design of the platform. I highly recommend him for any projects. UI/UX skills are very good along with complex integrations. You will not be disappointed with his work.",
+      badges: ["Clear Communicator", "Accountable for Outcomes"],
+      badgeColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800"]
     },
     {
-      name: "Sarah Johnson",
+      name: "Stacey Miller",
       role: "Product Manager",
       rating: 5.0,
-      text: "Working with Gurpreet was one of the best experiences I've had on UpWork. Not only did he do full stack back and front end design and development, he was very professional and delivered on time.",
-      badges: ["Collaborative", "Quality"],
-      badgeColors: [
-        "bg-purple-100 text-purple-800",
-        "bg-blue-100 text-blue-800",
-      ],
+      text: "Gurpreet was wonderful to work with. We had a very difficult project that required a highly skilled developer. Gurpreet was highly skilled, pleasant to work with and always in communication. You will not be disappointed.",
+      badges: ["Clear Communicator", "Committed to Quality"],
+      badgeColors: ["bg-purple-100 text-purple-800", "bg-blue-100 text-blue-800"]
     },
     {
       name: "David Chen",
@@ -33,10 +30,7 @@ export default function Home() {
       rating: 5.0,
       text: "Easy to work with professional. Highly recommended full stack developer with excellent communication and problem-solving skills.",
       badges: ["Professional", "Reliable"],
-      badgeColors: [
-        "bg-green-100 text-green-800",
-        "bg-orange-100 text-orange-800",
-      ],
+      badgeColors: ["bg-green-100 text-green-800", "bg-orange-100 text-orange-800"]
     },
   ];
   const projects = [
