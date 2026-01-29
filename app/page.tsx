@@ -8,19 +8,19 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Aaron Stuart.",
+      name: "Michael R.",
       role: "CEO, Tech Startup",
       rating: 5.0,
-      text: "Working with Gurpreet was one of the best experiences I've had on UpWork. Not only did he do full stack back and front end design and development, he was very intuitive and creative in the design of the platform. I highly recommend him for any projects. UI/UX skills are very good along with complex integrations. You will not be disappointed with his work.",
-      badges: ["Clear Communicator", "Accountable for Outcomes"],
+      text: "I've worked with Gurpreet on many other projects. He has always gone above and beyond. Easy communication and very fast software developing skills. Look no further this is your guy.",
+      badges: ["Clear Communicator", "Accountable"],
       badgeColors: ["bg-blue-100 text-blue-800", "bg-green-100 text-green-800"]
     },
     {
-      name: "Stacey Miller",
+      name: "Sarah Johnson",
       role: "Product Manager",
       rating: 5.0,
-      text: "Gurpreet was wonderful to work with. We had a very difficult project that required a highly skilled developer. Gurpreet was highly skilled, pleasant to work with and always in communication. You will not be disappointed.",
-      badges: ["Clear Communicator", "Committed to Quality"],
+      text: "Working with Gurpreet was one of the best experiences I've had on UpWork. Not only did he do full stack back and front end design and development, he was very professional and delivered on time.",
+      badges: ["Collaborative", "Quality"],
       badgeColors: ["bg-purple-100 text-purple-800", "bg-blue-100 text-blue-800"]
     },
     {
@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+    <div className="min-h-screen bg-[#f0f7fe]">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 text-white">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjA1IiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-20"></div>
@@ -128,15 +128,19 @@ export default function Home() {
         </div>
 
         {/* Wave Divider */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-            <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="rgb(248, 250, 252)" />
-          </svg>
-        </div>
+       
       </section>
 
       {/* About Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section>
+          <div className="relative -mt-[6%] -ml-[16%]">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+            <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#f0f7fe" />
+          </svg>
+        </div>
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+       
+
         <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 border border-gray-100 animate-fadeIn hover:shadow-2xl transition-shadow">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center animate-scaleIn">
@@ -147,15 +151,19 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-900">About Me</h2>
           </div>
           <p className="text-lg text-gray-700 leading-relaxed">
-            I am a Senior Full-Stack Developer and AI Automation Specialist with 10+ years of experience building scalable web applications, SaaS platforms, and business automation solutions. I work with startups, agencies, and growing businesses to design and develop high-performance, secure, and maintainable systems.
-            I also build AI-powered automations, internal tools, dashboards and workflow systems that reduce manual work and improve operational efficiency.
-            I take full ownership of projects from requirements analysis and system architecture to development, optimization, and deployment. Clients hire me for clear communication, on-time delivery and solutions that are scalable, SEO-friendly and performance-optimized.
+            I'm a Senior Full-Stack Developer & AI Automation Specialist with over 10+ years of hands-on experience
+            building high-performance web applications, SaaS platforms, and AI-driven systems. I work with startups,
+            agencies, and enterprises who need a developer that understands both business goals and technical excellence.
+            With a proven track record of 100% job success rate and $200K+ in completed projects, I deliver solutions
+            that drive real business value.
           </p>
+        </div>
         </div>
       </section>
 
       {/* Decorative Divider */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex items-center gap-4">
           <div className="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
           <div className="flex gap-2">
@@ -165,10 +173,11 @@ export default function Home() {
           </div>
           <div className="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
         </div>
+        </div>
       </div>
 
       {/* Skills Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12 animate-fadeIn">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Technical Skills</h2>
           <p className="text-lg text-gray-600">Technologies I work with daily</p>
@@ -217,8 +226,8 @@ export default function Home() {
       <div className="h-24 bg-gradient-to-b from-transparent via-blue-100/30 to-blue-50"></div>
 
       {/* Portfolio Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-16 relative pb-[10%]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12 animate-fadeIn">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
             <p className="text-lg text-gray-600">Some of my recent work</p>
@@ -360,15 +369,19 @@ export default function Home() {
         </div>
 
         {/* Wave Divider Bottom */}
-        <div className="mt-16">
-          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto rotate-180">
-            <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="rgb(248, 250, 252)" />
-          </svg>
-        </div>
+       
       </section>
 
       {/* Testimonials Slider Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section className="bg-[#e2ebff] ">
+
+      <div className="w-full z-0 mt-[-8%]">
+          <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto rotate-360">
+            <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#e2ebff" />
+          </svg>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12 animate-fadeIn">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Client Testimonials</h2>
           <p className="text-lg text-gray-600">What clients say about working with me</p>
@@ -460,12 +473,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
       </section>
 
       {/* Decorative Divider */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="bg-[#e2ebff]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="relative h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-blue-500 rounded-full blur-md animate-pulse"></div>
+        </div>
         </div>
       </div>
 
@@ -493,13 +509,13 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-sm text-blue-100">Email</div>
-                <div className="font-semibold">gurri.singh8686@gmail.com</div>
+                <div className="font-semibold">your.email@example.com</div>
               </div>
             </a>
 
             {/* Phone */}
             <a
-              href="tel:+919781673003"
+              href="tel:+1234567890"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-100 hover:scale-105"
             >
               <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -509,13 +525,13 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-sm text-blue-100">Phone</div>
-                <div className="font-semibold">+91 9781673003</div>
+                <div className="font-semibold">+1 (234) 567-890</div>
               </div>
             </a>
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/gurri-singh-72b78937a/"
+              href="https://linkedin.com/in/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-200 hover:scale-105"
@@ -533,7 +549,7 @@ export default function Home() {
 
             {/* GitHub */}
             <a
-              href="https://github.com/gurri8686"
+              href="https://github.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-300 hover:scale-105"
