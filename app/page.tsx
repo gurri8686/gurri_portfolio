@@ -510,7 +510,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-sm text-blue-100">Phone</div>
-                <div className="font-semibold">+91 97816-73003</div>
+                <div className="font-semibold">+91 9781673003</div>
               </div>
             </a>
 
