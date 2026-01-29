@@ -499,7 +499,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {/* Email */}
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:gurri.singh8686@gmail.com"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn hover:scale-105"
             >
               <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -509,13 +509,13 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-sm text-blue-100">Email</div>
-                <div className="font-semibold">your.email@example.com</div>
+                <div className="font-semibold">gurri.singh8686@gmail.com</div>
               </div>
             </a>
 
             {/* Phone */}
             <a
-              href="tel:+1234567890"
+              href="tel:+91 9781673003"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-100 hover:scale-105"
             >
               <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -525,13 +525,13 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-sm text-blue-100">Phone</div>
-                <div className="font-semibold">+1 (234) 567-890</div>
+                <div className="font-semibold">+91 9781673003</div>
               </div>
             </a>
 
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/gurri-singh-72b78937a/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-200 hover:scale-105"
@@ -549,7 +549,7 @@ export default function Home() {
 
             {/* GitHub */}
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/gurri8686"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all rounded-2xl p-6 border border-white/20 flex items-center gap-4 animate-fadeIn delay-300 hover:scale-105"
